@@ -12,10 +12,12 @@ body
 h2
   font-family: $secondary-font
   font-size: 1.5em
-  color: $secondary-color--moderately-soft
+  color: $white-secondstory
+  &:after
+    content: "-#{$cs-scheme}"
 
 .pallete-example
-  background-color: $secondary-color--moderately-soft
+  background-color: $grey-secondstory
   width: 1064px
   font-size: 0
   padding: 20px
@@ -26,6 +28,7 @@ h2
   width: 150px
   height: 100px
   font-size: 16px
+  font-family: $font-family--baskerville
   border: #F2F2F2 solid 1px
 
 .pallete-auto-primary-1
