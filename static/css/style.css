@@ -63,8 +63,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/*------------ COLOR LIBRARY-------------- */
-/*-------------COLOR PALLETES-------------- */
 /*-----------FONT FACES------------- */
 @font-face {
   font-family: Julius-Sans;
@@ -99,32 +97,312 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /*** PAIR SERIF READING + SANS HEADING ** */
-/*** COLOR *** */
-/*** TYPOGRAPHY *** */
-/*------------ COLOR LIBRARY-------------- */
-/*-------------COLOR PALLETES-------------- */
 /** BACKGROUNDS MIXINS ** */
 /* line 5, ../sass/sass_app/_home.sass */
 body {
-  background-color: #7cb9e8;
+  background-color: #420099;
+  padding: 20px;
 }
 
+/* line 9, ../sass/sass_app/_home.sass */
+.welcome-message {
+  margin-bottom: 24px;
+}
 /* line 2, ../sass/sass_base/_typographies.sass */
 .welcome-message h1 {
   font-family: Julius-sans, Verdana, Helvetica, Arial, sans-serif;
   font-size: 4em;
   text-transform: uppercase;
+  color: #c599ff;
 }
-/* line 6, ../sass/sass_base/_typographies.sass */
+/* line 7, ../sass/sass_base/_typographies.sass */
 .welcome-message p {
   font-family: Libre-Baskerville, Georgia, Times, "Times New Roman", serif;
   font-size: 1.5em;
+  color: #9999ff;
 }
-/* line 9, ../sass/sass_base/_typographies.sass */
+/* line 11, ../sass/sass_base/_typographies.sass */
 .welcome-message strong, .welcome-message b {
   font-weight: bold;
 }
-/* line 11, ../sass/sass_base/_typographies.sass */
+/* line 13, ../sass/sass_base/_typographies.sass */
 .welcome-message em, .welcome-message i {
   font-style: italic;
+}
+
+/* line 12, ../sass/sass_app/_home.sass */
+h2 {
+  font-family: Julius-sans, Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #8b33ff;
+}
+
+/* line 17, ../sass/sass_app/_home.sass */
+.pallete-example {
+  background-color: #8b33ff;
+  width: 1064px;
+  font-size: 0;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+/* line 24, ../sass/sass_app/_home.sass */
+.pallete {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  font-size: 16px;
+  border: #f2f2f2 solid 1px;
+}
+
+/* line 31, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-1 {
+  background-color: #9999ff;
+}
+/* line 34, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-1:after {
+  content: "#9999ff";
+}
+
+/* line 37, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-2 {
+  background-color: #6666ff;
+}
+/* line 40, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-2:after {
+  content: "#6666ff";
+}
+
+/* line 43, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-3 {
+  background-color: #3333ff;
+}
+/* line 46, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-3:after {
+  content: "#3333ff";
+}
+
+/* line 49, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-4 {
+  background-color: blue;
+}
+/* line 52, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-4:after {
+  content: "blue";
+}
+
+/* line 55, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-5 {
+  background-color: #0000cc;
+}
+/* line 58, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-5:after {
+  content: "#0000cc";
+}
+
+/* line 61, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-6 {
+  background-color: #000099;
+}
+/* line 64, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-6:after {
+  content: "#000099";
+}
+
+/* line 67, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-7 {
+  background-color: #000066;
+}
+/* line 70, ../sass/sass_app/_home.sass */
+.pallete-auto-primary-7:after {
+  content: "#000066";
+}
+
+/* line 73, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-1 {
+  background-color: #c599ff;
+}
+/* line 76, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-1:after {
+  content: "#c599ff";
+}
+
+/* line 79, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-2 {
+  background-color: #a866ff;
+}
+/* line 82, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-2:after {
+  content: "#a866ff";
+}
+
+/* line 85, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-3 {
+  background-color: #8b33ff;
+}
+/* line 88, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-3:after {
+  content: "#8b33ff";
+}
+
+/* line 91, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-4 {
+  background-color: #6e00ff;
+}
+/* line 94, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-4:after {
+  content: "#6e00ff";
+}
+
+/* line 97, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-5 {
+  background-color: #5800cc;
+}
+/* line 100, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-5:after {
+  content: "#5800cc";
+}
+
+/* line 103, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-6 {
+  background-color: #420099;
+}
+/* line 106, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-6:after {
+  content: "#420099";
+}
+
+/* line 109, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-7 {
+  background-color: #2c0066;
+}
+/* line 112, ../sass/sass_app/_home.sass */
+.pallete-auto-secondary-7:after {
+  content: "#2c0066";
+}
+
+/* line 115, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-1 {
+  background-color: #ffe599;
+}
+/* line 118, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-1:after {
+  content: "#ffe599";
+}
+
+/* line 121, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-2 {
+  background-color: #ffd866;
+}
+/* line 124, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-2:after {
+  content: "#ffd866";
+}
+
+/* line 127, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-3 {
+  background-color: #ffcb33;
+}
+/* line 130, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-3:after {
+  content: "#ffcb33";
+}
+
+/* line 133, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-4 {
+  background-color: #ffbf00;
+}
+/* line 136, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-4:after {
+  content: "#ffbf00";
+}
+
+/* line 139, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-5 {
+  background-color: #cc9800;
+}
+/* line 142, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-5:after {
+  content: "#cc9800";
+}
+
+/* line 145, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-6 {
+  background-color: #997200;
+}
+/* line 148, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-6:after {
+  content: "#997200";
+}
+
+/* line 151, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-7 {
+  background-color: #664c00;
+}
+/* line 154, ../sass/sass_app/_home.sass */
+.pallete-auto-tertiary-7:after {
+  content: "#664c00";
+}
+
+/* line 157, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-1 {
+  background-color: #fff499;
+}
+/* line 160, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-1:after {
+  content: "#fff499";
+}
+
+/* line 163, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-2 {
+  background-color: #ffef66;
+}
+/* line 166, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-2:after {
+  content: "#ffef66";
+}
+
+/* line 169, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-3 {
+  background-color: #ffea33;
+}
+/* line 172, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-3:after {
+  content: "#ffea33";
+}
+
+/* line 175, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-4 {
+  background-color: #ffe500;
+}
+/* line 178, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-4:after {
+  content: "#ffe500";
+}
+
+/* line 181, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-5 {
+  background-color: #ccb700;
+}
+/* line 184, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-5:after {
+  content: "#ccb700";
+}
+
+/* line 187, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-6 {
+  background-color: #998900;
+}
+/* line 190, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-6:after {
+  content: "#998900";
+}
+
+/* line 193, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-7 {
+  background-color: #665b00;
+}
+/* line 196, ../sass/sass_app/_home.sass */
+.pallete-auto-quadrary-7:after {
+  content: "#665b00";
 }
